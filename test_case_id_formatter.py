@@ -15,15 +15,20 @@ print("=== Test-Case ID Formatter ===")
 # ---------------------------------------------------------------------------
 # TODO 1a: ask "Module prefix (e.g. login): " and store it in module_prefix.
 #          Remove stray spaces and make it UPPER CASE (.strip() and .upper()).
-#
+module_prefix = input("Module prefix (e.g. login): ").strip().upper()
+
 # TODO 1b: ask "Test number: " and store it in test_number as an int.
-#
+test_number = int(input("Test number: "))
+
 # TODO 1c: ask "Test title: " and store it in test_title.
 #          Remove stray spaces (.strip()) but keep the original capitals.
-#
+test_title = input("Test title: ").strip()
+
 # TODO 1d: ask "Tests executed: " and store it in total_tests as an int.
-#
+total_tests = int(input("Tests executed: "))
+
 # TODO 1e: ask "Tests passed: " and store it in passed_tests as an int.
+passed_tests = int(input("Tests passed: "))
 
 
 # ---------------------------------------------------------------------------
