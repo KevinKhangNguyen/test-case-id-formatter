@@ -26,3 +26,12 @@ $ python check_exercise.py
   --    Stretch 2: ID length line (not done)
 
 RESULT: all 8 checks passed. Paste this output into your submission.
+
+## git log --oneline Output
+
+$ git log --oneline
+0365b80 (HEAD -> main) Add README with usage instructions and Output
+9d4aacc Add failed count, pass rate and release decision
+2f28902 Add zero-padded test-case ID output
+f71c3ac Add prompts for module, number, title and test counts. But for real this time!
+8ae4c15 Add prompts for module, number, title and test counts
